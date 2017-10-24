@@ -190,9 +190,9 @@
 	text-align: center;
 }
 .cards{
-	/*margin: 50px;*/
+	margin: 50px;
 	border-radius: 30px;
-	/*padding: 30px;*/
+	padding: 30px;
 	min-height: 550px;
 }
 
