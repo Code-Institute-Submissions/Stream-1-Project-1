@@ -69,4 +69,4 @@
 
 ## HOW THE PROJECT WAS DEPLOYED
 
-### I created a repository in GitHub and pushed my project to this repository. I Then depolyed the repository on GitHub pages and a demo can viewed [here](https://sarahbarron.github.io/Stream1Project/index.html).
+### I created a repository in GitHub and pushed my project to this repository. I Then depolyed the repository on GitHub pages and a demo can viewed [here]( https://sarahbarron.github.io/Stream-1-Project/).
