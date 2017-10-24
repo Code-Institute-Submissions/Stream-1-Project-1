@@ -33,6 +33,8 @@
 ### Google APIs - for the font-family atma and google maps for the school location map.
 ### Canva - to create the Motto picture on the index.html page
 ### Languages & Libraries used - HTML, CSS, JavaScript & Jquery.
+### YouTube - to upload the video on the ActiveSchools.html page.
+### TinyPNG - to compress photos.
 
 ## HOW THE PROJECT WAS TESTED
 
@@ -45,7 +47,7 @@
 - Chrome 
 - Internet Explorer
 - Microsoft Edge
-- Firefox.
+- Firefox. 
 
 ### I tested each page visually to make sure
 - everything loaded properly
