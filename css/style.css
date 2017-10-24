@@ -1,0 +1,606 @@
+.row{
+	margin:0px;
+}
+
+.pdbottom50{
+	padding-bottom: 50px;
+}
+.pdtop50{
+	padding-top: 50px;
+}
+
+.container-fluid{
+	width: 100%;
+	padding: 0;
+}
+
+/************************1st row in the header imgage & school name****************************/
+.logoimg{
+	padding:20px 50px 10px 100px;
+}
+
+.schoolname{
+	padding:25px 25px 0px 25px;
+	font-size: 50px;
+	color:navy;
+	font-family:Atma;
+}
+
+.schoolname:link{
+	text-decoration-line: none;
+}
+
+.col-lg-12{
+	padding:0px;
+}
+
+/**********************************2nd Row navigation bar**************************************/
+.navbar-header{
+	background-color: #B8BEDD;
+}
+
+.navbar-default .navbar-toggle .icon-bar{
+	background-color: #d279a6;
+}
+.navbar-default .navbar-toggle{
+	background-color: #D4D5D6;
+} 
+
+.navbar-pills{
+	min-width: 100%;
+}
+.navbar-pills a{
+	font-size:25px;
+	white-space:nowrap;
+	color:navy;
+	font-family: Atma;
+	display: inline-block;
+}
+
+.navbar{
+	border:0px;
+	margin-bottom:0px;
+	z-index: 1;
+}
+
+.affix{
+	top:0;
+	width:100%;
+	opacity: 0.95;	
+}
+
+.home{
+	background-color: #B8BEDD;
+}
+.navbar-default .news:active{
+	box-shadow: 2px -1px 10px 5px #4281A4 inset;
+	background-color: #B8BEDD;
+}
+.about{
+	background-color:#d279a6;
+}
+
+.navbar-default .about:active{
+	box-shadow: 2px -1px 10px 5px #4281A4 inset;
+	background-color: #d279a6;
+}
+.parents{
+	background-color:#CDDC39;
+}
+
+.navbar-default .parents:active{
+	box-shadow: 2px -1px 10px 5px #4281A4 inset;
+	background-color: #CDDC39;
+}
+.news{
+	background-color:pink;
+}
+
+.navbar-default .news:active{
+	box-shadow: 2px -1px 10px 5px #4281A4 inset;
+	background-color: pink;
+}
+
+.calander{
+	background-color: #9ECFEC;
+}
+.navbar-default .calander:active{
+	box-shadow: 2px -1px 10px 5px #4281A4 inset;
+	background-color: #9ECFEC;
+}
+
+.contacts{
+	background-color:#FFD36B;
+}
+.navbar-default .contacts:active{
+	box-shadow: 2px -1px 10px 5px #4281A4 inset;
+	background-color: #FFD36B;
+}
+
+/*dropdown menus from navigation*/
+.dropdown-menu{
+	margin: 0px;
+	border:0px;
+}
+
+.dropdown:hover .dropdown-menu{
+	display:block;
+}
+
+.dropdown-content{
+	display: none;
+	position: absolute;
+	background-color: pink;
+	z-index: 1;
+	line-height: 18px;
+}
+.dropdown-content a{
+	color:navy;
+	font-size: 20px;
+	padding: 12px 16px;
+	text-decoration: none;
+	display:block;
+	text-align: left;
+}
+
+.dropdown-content a:hover{
+	color:#F18F01;
+	background-color: #0e6990;
+	border-radius: 30px;
+}
+
+.drophome{
+	background-color:#d279a6;
+	border-radius:20px;
+}
+
+.dropparents{
+	background-color:#CDDC39;
+	border-radius: 20px;
+}
+
+/*************************************carousel on home page *************************************************/
+.carousel{
+	margin-bottom:0px;
+}
+
+.item img{
+	max-height: 750px;
+	width: 100%;
+}
+
+.mrcassinclass img{
+	object-fit: cover;
+}
+
+/*************************************** Motto ************************************************/
+
+
+#motto{
+	display: block;
+	width: 100%;
+}
+
+/************************************************** cards *****************************************/
+#cardcontainer{
+	background-color: #0e6990;
+}
+#cardcontainer h2{
+	padding-bottom: 30px;
+	text-align: center;
+}
+.cards{
+	/*margin: 50px;*/
+	border-radius: 30px;
+	/*padding: 30px;*/
+	min-height: 550px;
+}
+
+#card1{
+	background-color: #CDDC39;
+}
+
+/*Last Card News & Events*/
+
+#card2{
+	background-color: #8ACEF3;
+}
+
+#card2 img{
+	max-height: 100px;
+	max-width:100px;
+}
+#card2 h3{
+	padding-left: 10px;
+}
+
+#card2 h3, #news1 div, #news2 div, #news3 div{
+	display: inline;
+}
+
+#card2 a{
+	text-decoration-line: none;
+}
+
+
+/*Middle card Contact Details*/
+#card3{
+	background-color: pink;
+}
+
+#card3 h3{
+	text-align: left;
+}
+
+#card3 p{
+	word-wrap: break-word;
+	text-align: center;
+}
+
+#card3 h3+p, h3{
+	padding-right: 10px;
+	display: inline;
+}
+
+#address, #addressLines, #contactAddress, #contactLines{
+	display: inline-table;
+}
+
+#card3 p{
+	text-align: left;
+}
+
+/* read more link at the bottom*/
+.linkdiv{
+	display:block;
+	word-break: normal;
+	width: 100%;
+	
+
+}
+.cardslink{
+	text-decoration: underline;
+	color:#E3298A;
+	font-size: 18px;
+	display: block;
+	white-space: nowrap;
+	text-align: right;
+	padding: 20px 10px 10px 0px;
+}
+
+#card1, .cardslink{
+	padding-top: 50px;
+}
+
+
+/*************************************** template page style ****************************************/
+#row3{
+	background-color:#0e6990;
+	padding-bottom: 50px;
+}
+
+/*template sidebars*/
+.col-lg-2{
+	padding:0px;
+}
+
+
+#sideH2{
+	font-family: atma;
+	color:#B8BEDD;
+	text-decoration: underline;
+	margin-top: 80px;
+	padding: 20px 50px 0px 50px;	
+}
+.sidebar{
+	padding:20px 50px 50px 50px;
+	margin:0px;
+	text-align:left;
+	font-family:atma;
+	font-size:18px;
+	border-radius:20px;
+	color:white;
+}
+
+.sidebar li{
+	padding:10px;
+}
+.sidebar a{
+	color:white;
+	font-size:20px;
+	font-family:atma;
+}
+
+.sidebar a:hover{
+	color:#CDDC39;
+}
+
+
+/* ******************************RIGHT SIDEBAR NEWS & EVENTS  *******************************/
+
+.sidebar h2{
+	font-family: atma;
+	color: #B8BEDD;
+	text-decoration: underline;
+	margin-top: 60px;
+	padding: 20px 0px;
+}
+.sidebar h3{
+	text-align: center;
+	font-size: 25px;
+	color:#FFD36B;
+	font-family: atma;
+}
+.sidebar h4{
+	font-size: 20px;
+	color:white;
+	font-family: atma;
+}
+.sidebar img{
+	padding:20px 20px 20px 0px;
+	max-width: 300px;
+	max-width: 300px;
+} 
+
+.sidebar a{
+	text-decoration-line: none;
+}
+
+/*template center style*/
+h1{
+	color:navy;
+	font-family:atma;
+	text-align: center;
+	padding-bottom:50px;
+	font-weight: bold;
+}
+
+h2{
+	font-family: sans-serif;
+	color: navy;
+}
+
+h3{
+	color:navy;
+	font-family: sans-serif;
+}
+p, li{
+	color:navy;
+	font-family:sans-serif;
+	font-size:18px;
+}
+
+a{
+	word-wrap: break-word;
+}
+
+
+.centerA{
+	color: #9ECFEC;
+}
+
+.centerA:hover{
+	color: #CDDC39;
+}
+
+.centerpage{
+	padding:30px;
+	margin:50px -7.5px 0px -30px;
+	background-color:white;
+	border:solid;
+	border-radius:20px;
+	line-height:40px;
+	min-height: 700px;
+}
+
+
+/************************************** Our School *******************************************/
+#ourschoolImg{
+	display: block;
+	margin:auto;
+	padding-bottom: 50px;
+}
+/*********************************** Mission Statement **************************************/
+#mission{
+	text-align: center;
+	font-size: 25px;
+}
+/********************************** Our Staff & BOM *****************************************/
+.staff p{
+	padding-left:50px;
+}
+/************************************School Policies*****************************************/
+.policy{
+	display: block;
+	text-align: center;
+	font-size: 25px;
+}
+#policytxt{
+	text-align: center;
+	padding: 30px;
+}
+/****************************************WSE REPORT******************************************/
+#WSEbutton{
+	margin-top: 50px;
+	display: block;
+	min-width: 100%;
+}
+
+/**************************************Ex Curricular****************************************/
+#ExCur{
+	max-height: 450px;
+}
+#ExCurTxt{
+	padding-top: 50px;
+}
+#ExCurTxt h2{
+	text-align: center;
+}
+/**************************************Active Schools***************************************/
+#ActiveFlagLogo{
+	width: 100%;
+	max-height: 250px;
+	padding-bottom: 50px;
+}
+video{
+	width: 100%; 
+	height: auto;
+}
+
+/****************************************Credit Union**************************************/
+#CUimg{
+	max-width: 500px;
+	max-height: 500px;
+	float:left;
+	padding-right: 50px;
+}
+
+/**********************************Parents Association*************************************/
+#stageImg{
+	float:left;
+	padding-right: 50px;
+}
+
+/***************************************Calander*****************************************/
+#calander, #newsrow3{
+	background:linear-gradient(to bottom, #0E6990,white);
+}
+#calander h2{
+	text-align: center;
+	font-family: sans-serif;
+	font-weight: bold;
+	padding-bottom: 50px;
+	text-decoration-line: underline;
+}
+#calander table{
+	font-family: sans-serif;
+	font-size: 18px;
+	color: navy;
+}
+#calander th{
+	font-size: 20px;
+	font-weight: bold;
+	text-align: center;
+}
+
+#calander td{
+	padding: 20px;
+}
+#calander td:first-child{
+	font-weight: bold;	
+	border-right: inset;
+}
+
+/*********************************************** Guidelines **********************************/
+
+#accordion h4{
+	font-family: atma;
+	font-size: 25px;
+	color: navy;
+}
+.glyphicon-menu-down{
+	float:right;
+}
+
+/********************************************** News Page ************************************/
+.newsimg{
+	float: left;
+	margin:0px 50px 50px 0px;
+	max-height: 300px;
+	max-width: 300px;
+}
+
+/******************************************** contact page **********************************/
+#contactPage{
+	background:linear-gradient(to bottom, #0E6990,white);
+	padding-top: 100px;
+}
+
+#contactPage h1{
+	color: white;
+	font-weight: normal;
+	margin-top: 0px;
+	text-decoration-line:underline;
+}
+#contactPage .col-lg-5{
+	margin-right: 50px;
+}
+
+/* contact details table */
+#contactTable{
+	
+	text-align: left;
+	background-color: #fff;
+	max-width: 600px;
+	border-radius: 30px;
+	border-style: none;
+}
+
+#contactTable th{
+	font-family: atma;
+	font-size: 30px;
+	color:navy;
+	font-weight: normal;
+	padding:30px 0px 30px 50px;
+
+}
+#contactTable td{
+	color:navy;
+	font-size: 20px;
+	font-family: sans-serif;
+	padding-top: 30px;
+}
+#contactTable th, #contactTable td{
+	border-style: none;
+}
+
+#contactTable tr{
+	border-bottom: inset;
+}
+#contactTable tr:last-child{
+	border-bottom: none;
+}
+
+#contactTable a{
+	text-decoration-line: none;
+}
+/*CONTACT FORM*/
+label{
+	font-family: atma;
+	font-size: 25px;
+	color:navy;
+	font-weight: normal;
+}
+
+legend{
+	font-family: atma;
+	font-size: 30px;
+	text-align: center;
+	color:navy;
+	padding:20px 0px;
+}
+
+form{
+	border-color: white;
+	border-style: solid;
+	padding: 20px;
+	border-radius: 30px;
+	min-height: 720px;
+}
+
+.btn{
+	float: right;
+}
+/*
+************************************************ FOOTER ******************************/
+
+#footertxt{
+	padding: 20px;
+	font-size: 14px;
+	text-align: center;
+	border-top: inset;
+}
+
+.footerMargin{
+	margin-top: 50px;
+}
