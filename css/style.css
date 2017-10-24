@@ -444,9 +444,9 @@ a{
 }
 /**************************************Active Schools***************************************/
 #ActiveFlagLogo{
-	width: 100%;
-	max-height: 250px;
 	padding-bottom: 50px;
+	display:block;
+	margin: auto;
 }
 
 #vid{
