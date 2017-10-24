@@ -207,10 +207,6 @@
 	background-color: #8ACEF3;
 }
 
-#card2 img{
-	max-height: 100px;
-	max-width:100px;
-}
 #card2 h3{
 	padding-left: 10px;
 }
@@ -339,8 +335,7 @@
 }
 .sidebar img{
 	padding:20px 20px 20px 0px;
-	max-width: 300px;
-	max-width: 300px;
+	display: inline;
 } 
 
 .sidebar a{
