@@ -54,7 +54,7 @@
 - each link opened correctly.
 - The page was responsive to window minimising and maximising.
 
-### In the developer tools i tested that the website was reponsive in mobile mode.
+### In the developer tools I tested that the website was reponsive in mobile mode.
 
 ### I tested the form to make sure that the form was not passed unless:
 - The required fields were filled in
@@ -64,10 +64,6 @@
 ## Work based off other code
 ### I found help for the bootstrap carousel on index.html from [w3schools](https://www.w3schools.com/bootstrap/bootstrap_carousel.asp)
 - I kept the general layout for the carousel and inputted my own pictures. I also used the same next and previous button design. I decided not to have captions on my pictures so i eliminated captions. I changed the default timing interval to 7.5seconds. I changed height, width and margin bottom values and i changed the image to object-fit: cover.
-### I found help for the bootstrap gallery modal slideshow on gallery.html from [w3schools](https://www.w3schools.com/howto/howto_js_lightbox.asp)
-- I kept the general layout of the code. I put each image into a thumbnail. I changed the onclick to call one function. 
-- The opening, closeing, next and previous funtionality of the modal remained the same. I removed the numbers on each slide.
-- I minimised the javaScript by taking out the mini slideshow underneath the current picture, and the picture captions.
 
 ## HOW THE PROJECT WAS DEPLOYED
 
