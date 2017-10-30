@@ -8,7 +8,7 @@
 
 ### As a 1st time parent of a school going child 3 years ago & not from the locality, I looked to the Internet to find out more about the local school. However the information was out of date and minimal and after meeting other parents it turned out that many of them too had tried to do the same, so it was decided that I would develop a website to provide this service. 
 ### This website is needed by both parents of pupils in the local school and by parents of children who have an interest in sending their child to this school.
-- For the parents of pupils already in the school it provides news and information on upcoming events, documents such as school policies, guidlines, WSE report, contact information, the school calander, parents association information, photos and videos from the year etc.
+- For the parents of pupils already in the school it provides news and information on upcoming events, documents such as school policies, guidlines, WSE report, contact information, the school calendar, parents association information, photos and videos from the year etc.
 - For parents interested in sending their child to the school it provides general and background information about the school, about activities they take part in, policy documents, general & beginning junior infants guidelines, contact details, staff & board of management information and gives information about the many things the school is involved with during the year.
 
 ## FUNCTIONALITY
@@ -21,7 +21,7 @@
 
 - News & Events - this is a page which provides news and upcoming events in relation to the school.
 
-- Calander - provides the most current calander for future school holidays
+- calendar - provides the most current calendar for future school holidays
 
 - Contact Us - provides contact details, a google map location, and a contact us form.
 

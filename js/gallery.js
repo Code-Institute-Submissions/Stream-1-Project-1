@@ -1,53 +1,70 @@
-var picNum = 1; 
+//JQUERY TO OPEN A SLIDESHOW MODAL OF THE PICTURES IN THE SCHOOL GALLERY
 
-// opens the modal & call the slideshow
-function openGallery(num) {
-  document.getElementById('slideshowModal').style.display = "block";
-  picNum=num;
-  createSlideshow(picNum);
-}
-
-// closes the modal
-function closeGallery() {
-  document.getElementById('slideshowModal').style.display = "none";
-}
+//WHEN A PICTURE IS CLICKED ON IT IS SHOWN IN A MODAL
+$('img').click(function(){
+  
+  $thisPic = $(this); //the image clicked on is assigned to $thisPic
+  $('#contentPic').attr('src', $thisPic.attr('src')); //the Modal Content img tag in the html file is   
+                                                      //assigned the src attribute from the clicked image
+  $('#slideshowModal').modal('show');//make the slideshowModal visable
+  
+});
 
 
-// creates the slide show
-function createSlideshow(n) {
+// WHEN THE PREVIOUS ICON IS CLICKED ON THE PREVIOUS PICTURE IN THE GALLERY IS SHOWN
+$('.glyphicon-chevron-left').click(function() {
 
-  var i; //iterator
-
-  // gets all pics that have a class slideshow
-  var gallery = document.getElementsByClassName("slideshow");
-
-  //if you are at the last picture set picNum back to the 1st picture
-  if (n > gallery.length) 
+   if( $thisPic.is( ':first-child' ) ) //if the picture is the first picture in the gallery
+   {
+      $thisPic = $("#pageGallery>img:last-child"); //go to the last picture in the gallery
+   }
+    else
     {
-      picNum = 1
+       $thisPic = $thisPic.prev(); //otherwise go to the previous picture in the gallery
     }
-
-  //if you are at picture 1 set picNum to the last picture 
-  if (n < 1) 
-    {
-      picNum = gallery.length;
-    }
-
-  //iterate through the gallery & hide the pictures but keep them in the normal flow
-  for (i = 0; i < gallery.length; i++)
-    {
-      gallery[i].style.display = "none";
-    }
-
-  //displays the current picture as a block element
-  gallery[picNum-1].style.display = "block";
-}
+    
+  $('#contentPic').attr('src', $thisPic.attr('src')); //the Modal Content img tag in the html file is   
+                                                      //assigned the src attribute from the clicked image
+  $('#slideshowModal').modal('show'); //make the slideshowModal visable
+});
 
 
-//when the previous or next buttons are clicked
-//picNum is changed by + or -1 and passed back to the createSlideshow function
-//i.e showing the next or prev picture
-function plusSlides(n) 
-{
-  createSlideshow(picNum += n); 
-}
+
+
+// WHEN THE NEXT ICON IS CLICKED ON THE NEXT PICTURE IN THE GALLERY IS SHOWN
+$('.glyphicon-chevron-right').click(function() {
+ 
+ if( $thisPic.is( ':last-child' ) ) { //if it is the last picture in the gallery
+      $thisPic = $("#pageGallery>img:first-child"); // set the slideshow back to the 1st picture
+  }
+
+  else{
+    $thisPic = $thisPic.next(); // otherwise show the next picture in the gallery
+  }
+  
+  $('#contentPic').attr('src', $thisPic.attr('src')); //the Modal Content img tag in the html file is   
+                                                      //assigned the src attribute from the clicked image
+  
+  $('#slideshowModal').modal('show');  //make the slideshowModal visable
+  
+});
+
+
+// WHEN THE X ICON IS PRESSED ON THE MODAL IS CLOSED
+$('.closeGallery').click(function(){
+  $('#slideshowModal').modal('hide');
+});
+
+// WHEN THE MOUSE IS MOVED OVER A PICTURE THE OPACITY & CURSOR ARE CHANGED TO 0.5 AND POINTER
+$('.thumbnailPic').mouseover(function(){
+  $('.thumbnailPic').css('cursor', 'pointer');
+  $current = $(this);
+  $current.addClass('opacity5');
+});
+
+
+
+// WHEN THE MOUSE IS MOVED OFF A PICTURE THE OPACITY & CURSOR GO BACK TO DEFAULT
+$('.thumbnailPic').mouseleave(function(){
+  $('.thumbnailPic').removeClass('opacity5');
+});

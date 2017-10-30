@@ -1,24 +1,25 @@
 <!DOCTYPE html>
 <html lang="en">
+  <head>
   
-  <head> 
     <title>Scoil Mhólainge - Listerlin</title>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
-    <link rel="stylesheet" type="text/css" href="../css/style.css">
+    <link rel="stylesheet" type="text/css" href="css/style.css">
+    <link rel="stylesheet" type="text/css" href="css/gallery.css">
     <link href='https://fonts.googleapis.com/css?family=Atma' rel='stylesheet'>
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
   </head>
-
+  
   <body>
 
-    <!-- Header / Navigation -->
+<!-- Header / Navigation -->
     <div class="container-fluid"> 
       <div id="row1" class="row">
         <div class="col-md-4">
-          <img src="../pictures/logopic.png" class="img-responsive logoimg" alt="Scoil Mhólainge Listerlin">
+          <img src="pictures/logopic.png" class="img-responsive logoimg" alt="Scoil Mhólainge Listerlin">
         </div>
         <div class="col-md-8 schoolname">
           <a class="schoolname" href="#">Scoil Mhólainge ~ Listerlin</a>
@@ -37,10 +38,11 @@
         </div>
         <div class="row">
           <ul id="myCollapsingList" class="col-lg-12 nav navbar-pills nav-justified collapse navbar-collapse">
-            <li><a class="home navbar-pills" href="../index.html">Home</a></li>
+            <li><a class="home navbar-pills" href="index.html">Home</a></li>
             <li class="dropdown">
               <a class="about navbar-pills" href="#">About Us
-              <span class="caret"></span></a>
+               <span class="caret"></span>
+              </a>
               <div class="dropdown-content dropdown-menu drophome dropdown-menu-right">
                 <a href="OurSchool.html">Our School</a>
                 <a href="MissionStatement.html">Mission Statement</a>
@@ -58,7 +60,8 @@
 
             <li class="dropdown">
               <a class="parents navbar-pills" href="#">Parents
-              <span class="caret"></span></a>
+               <span class="caret"></span>
+              </a>
               <div class="dropdown-content dropdown-menu dropparents dropdown-menu-right">
                 <a class="droptxt" href="ParentsAssociation.html">Parents Association</a>
                 <a class="droptxt" href="Guidelines.html">Guidelines for parents</a>
@@ -68,7 +71,7 @@
             </li>
 
             <li><a class="news navbar-pills" href="NewsAndEvents.html">News & Events</a></li>
-            <li><a class="calander navbar-pills" href="Calander.html">Calander</a></li>
+            <li><a class="calendar navbar-pills" href="calendar.html">calendar</a></li>
             <li><a class="contacts navbar-pills" href="ContactUs.html">Contact Us</a></li>
           </ul>
         </div>
@@ -77,75 +80,121 @@
 
     <!-- Main Page -->
     <div id="row3" class="row">
-      <div class="col-lg-3 hidden-md hidden-sm hidden-xs">
-        <h2 id="sideH2">About Us</h2>
-        <ul class="sidebar"> 
-          <li><a href="../index.html">Home</a></li>
-          <li><a href="OurSchool.html">Our School</a></li>
-          <li><a href="MissionStatement.html">Mission Statement</a></li>
-          <li><a href="OurStaff.html">Our Staff</a></li>
-          <li><a href="BOM.html">Board Of Management</a></li>
-          <li><a href="SchoolPolicies.html">School Policies</a></li>
-          <li><a href="WSEReport.html">WSE Report</a></li>
-          <li><a href="ExCurricular.html">Extra Curricular Activities</a></li>
-          <li><a href="ActiveSchools.html">Active Schools</a></li>
-          <li><a href="SuperTroopers.html">Super Troopers</a></li>
-          <li><a href="SchoolCU.html">School Credit Union</a></li>
-          <li><a href="Gallery.html">Picture Gallery</a></li>
-        </ul>
+
+      <!-- LEFT SIDE BAR -->
+      <div id="GalleryLeftCol" class="col-lg-2 hidden-md hidden-sm hidden-xs">
+          
+        <a href="Gallery.html">Back To<br>Picture Gallery</a>
+    
       </div>
  
-      <div class="col-lg-6 col-md-8 centerpage">
-        <h1> Super Troopers </h1>
-        <img class="img-responsive pdbottom50" src="../pictures/SUPERTROOPERS/supertrooperprogramme23.jpg" alt="super troopers"></img>
-        <p>
-          <a class="centerA" href="https://supertroopers.ie/" target="_blank">Super Troopers</a> is associated with Laya Healthcare. It is the first health homework programme ever to be run in Ireland. It encourages children and their families to be more active and learn about healthy lifestyles.
-​        </p>
-        <p>
-          The Programme includes short burst, fun activities around physical activity, wellbeing and nutrition. It promotes both a healthy mind and healthy body.
-​        </p>
-        <p>
-          <a class="centerA" href="https://supervalu.ie/real-people/super-troopers" target="_blank">SuperValu</a> is the official healthy eating partner to Super Troopers and this year our 2nd and 3rd class students visited Supervalu in Thomastown where they met with a nutritionist to learn all about healthy eating and the food pyramid. They also got to sample some delicious fruits,  breads and meat!
-    ​    </p>
-        <img class="img-responsive pdbottom50 pdtop50" src="../pictures/SUPERTROOPERS/supertroopers.jpg" 
-        alt="supertroopers"></img>
-        <p>
-          At Scoil Mhólainge we promote a healthy eating policy for all our students. All students must   bring healthy lunches. No sweets or crisps are allowed. Monday, Tuesdays and Wednesdays are sugar free. Thursday and Friday students are allowed to bring one small bar. We remind parents to be aware of the high sugar content in some types of yoghurt snacks and fruit based drinks. We encourage all students to include fruit and vegetables in their lunches.
-    ​    </p>
-        <p>
-          Along with healthy eating we encourage all our students to be more active and this year we have committed to <a class="centerA" href="ActiveSchools.html" target="_blank"> Active Schools </a> and we hope to have an Active School Flag shortly."
-        </p>
+      <!-- CENTER PAGE -->
+      <div id="GalleryThumbnail" class="col-lg-7 col-md-8 centerpage">
+        
+        <h1> Photo Gallery </h1>
+
+        <!-- DANCE & DRAMA 2017 GALLERY THUMBNAIL -->
+        <div class="thumbnail">
+        <a href="GalleryDanceandDrama17.html">
+          <img src="pictures/GALLERY/2017/dance&drama/dance&drama(9).jpg" alt="Dance and Drama 2017">
+          <div class="caption">
+            <p>Dance and Drama 2017</p>
+          </div>
+        </a>
+        </div>
+
+        <!-- GARDENING 2017 THUMBNAIL -->
+        <div class="thumbnail">
+        <a href="GalleryGardening17.html">
+          <img src="pictures/GALLERY/2017/gardening/gardening2017(22).jpg" alt="Gardening 2017">
+          <div class="caption">
+            <p>Gardening 2017</p>
+          </div>
+        </a>
+        </div>
+
+        <!--  Random Pictures  -->
+         <div class="thumbnail">
+        <a href="GalleryRandom17.html">
+          <img src="pictures/GALLERY/2017/random/random2017(1).jpg" alt="Random pictures">
+          <div class="caption">
+            <p>Random Pictures</p>
+          </div>
+        </a>
+        </div>
+
+
+         <!--  School Tour  -->
+         <div class="thumbnail">
+        <a href="GallerySchoolTour17.html">
+          <img src="pictures/GALLERY/2017/schoolTour/schoolTour2017(1).jpg" alt="School Tour 2017">
+          <div class="caption">
+            <p>School Tour 2017</p>
+          </div>
+        </a>
+        </div>
+
+
+        <!--  School Tour  -->
+         <div class="thumbnail">
+        <a href="GallerySchoolWalk17.html">
+          <img src="pictures/GALLERY/2017/schoolWalk/schoolwalk(5).jpg" alt="School Walk 2017">
+          <div class="caption">
+            <p>School Sponsored Walk 2017</p>
+          </div>
+        </a>
+        </div>
+
+
+
+        <!--  Sport  -->
+         <div class="thumbnail">
+        <a href="GallerySport17.html">
+          <img src="pictures/GALLERY/2017/sport/sport(6).jpg" alt="Sport 2017">
+          <div class="caption">
+            <p>Sport 2017</p>
+          </div>
+        </a>
+        </div>
+
+         <!--  Sports Day  -->
+         <div class="thumbnail">
+        <a href="GallerySportsDay17.html">
+          <img src="pictures/GALLERY/2017/sportsDay/sportsday(23).jpg" alt="Sports Day 2017">
+          <div class="caption">
+            <p>Sports Day 2017</p>
+          </div>
+        </a>
+        </div>
+       
       </div>
-      
+
+
       <!-- News & Events Sidebar -->
       <div class="col-lg-3 col-md-4 sidebar hidden-sm hidden-xs">
         <a href="NewsAndEvents.html">
           <h2> News & Events</h2>
-        
+      
+
           <article id="news1">
             <h3></h3>
             <div id="news1div"></div>
             <h4></h4>
           </article>
           <hr>
-
           <article id="news2">
             <h3></h3>
             <div id="news2div"></div>
             <h4></h4>
           </article>
           <hr>
-          <article id="news3">
-            <h3></h3>
-            <div id="news3div"></div>
-            <h4></h4>
-          </article>
         </a>
       </div>
-    </div>
+    </div> 
     <footer>
       <p id="footertxt"><b>Address: </b> Scoil Mhólainge, Mullinavat, Via Waterford. <b>Telephone: </b>(051)427305 <b>E-mail: </b>listerlinns@eircom.net.</p>
     </footer>
-    <script src="../js/news&events.js"></script>
-  </body>
+    <script src="js/news&events.js"></script> 
+  </body>    
 </html>
+  

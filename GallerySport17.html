@@ -6,20 +6,21 @@
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
-    <link rel="stylesheet" type="text/css" href="../css/style.css">
+    <link rel="stylesheet" type="text/css" href="css/style.css">
+    <link rel="stylesheet" type="text/css" href="css/gallery.css">
     <link href='https://fonts.googleapis.com/css?family=Atma' rel='stylesheet'>
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
   </head>
+  
   <body>
 
-    <!-- Header / Navigation -->
+<!-- Header / Navigation -->
     <div class="container-fluid"> 
       <div id="row1" class="row">
         <div class="col-md-4">
-          <img src="../pictures/logopic.png" class="img-responsive logoimg" alt="Scoil Mhólainge Listerlin">
+          <img src="pictures/logopic.png" class="img-responsive logoimg" alt="Scoil Mhólainge Listerlin">
         </div>
-        
         <div class="col-md-8 schoolname">
           <a class="schoolname" href="#">Scoil Mhólainge ~ Listerlin</a>
         </div>
@@ -28,7 +29,6 @@
 
     <div class="container-fluid">
       <nav class="navbar navbar-default navbgcolor" data-spy="affix" data-offset-top="180">
-        
         <div class="navbar-header">                   
           <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#myCollapsingList">
             <span class="icon-bar"></span>
@@ -36,14 +36,12 @@
             <span class="icon-bar"></span>
           </button>
         </div>
-        
         <div class="row">
           <ul id="myCollapsingList" class="col-lg-12 nav navbar-pills nav-justified collapse navbar-collapse">
-            <li><a class="home navbar-pills" href="../index.html">Home</a></li>
-            
+            <li><a class="home navbar-pills" href="index.html">Home</a></li>
             <li class="dropdown">
               <a class="about navbar-pills" href="#">About Us
-                <span class="caret"></span>
+               <span class="caret"></span>
               </a>
               <div class="dropdown-content dropdown-menu drophome dropdown-menu-right">
                 <a href="OurSchool.html">Our School</a>
@@ -62,7 +60,7 @@
 
             <li class="dropdown">
               <a class="parents navbar-pills" href="#">Parents
-                <span class="caret"></span>
+               <span class="caret"></span>
               </a>
               <div class="dropdown-content dropdown-menu dropparents dropdown-menu-right">
                 <a class="droptxt" href="ParentsAssociation.html">Parents Association</a>
@@ -73,66 +71,73 @@
             </li>
 
             <li><a class="news navbar-pills" href="NewsAndEvents.html">News & Events</a></li>
-            <li><a class="calander navbar-pills" href="Calander.html">Calander</a></li>
+            <li><a class="calendar navbar-pills" href="calendar.html">calendar</a></li>
             <li><a class="contacts navbar-pills" href="ContactUs.html">Contact Us</a></li>
           </ul>
         </div>
       </nav>
     </div>
 
-
+    <!-- Main Page -->
     <div id="row3" class="row">
-      <div class="col-lg-3 hidden-md hidden-sm hidden-xs">
-        
-          <h2 id="sideH2">About Us</h2>
-          <ul class="sidebar">
-          <li><a href="../index.html">Home</a></li>
-          <li><a href="OurSchool.html">Our School</a></li>
-          <li><a href="MissionStatement.html">Mission Statement</a></li>
-          <li><a href="OurStaff.html">Our Staff</a></li>
-          <li><a href="BOM.html">Board Of Management</a></li>
-          <li><a href="SchoolPolicies.html">School Policies</a></li>
-          <li><a href="WSEReport.html">WSE Report</a></li>
-          <li><a href="ExCurricular.html">Extra Curricular Activities</a></li>
-          <li><a href="ActiveSchools.html">Active Schools</a></li>
-          <li><a href="SuperTroopers.html">Super Troopers</a></li>
-          <li><a href="SchoolCU.html">School Credit Union</a></li>
-          <li><a href="Gallery.html">Picture Gallery</a></li>
-        </ul>
+
+      <!-- LEFT SIDE BAR -->
+      <div id="GalleryLeftCol" class="col-lg-2 hidden-md hidden-sm hidden-xs">
+          
+        <a href="Gallery.html">Back To<br>Picture Gallery</a>
+    
       </div>
  
-      <div class="col-lg-6 col-md-8 centerpage">
-        <h1> Active Schools </h1>
-        <a href="http://activeschoolflag.ie/" target="_blank"><img id="ActiveFlagLogo" class="img-responsive" src="../pictures/ActiveSchools/SchoolActiveFlagLogo.jpg" alt="active flag logo"></a>
-        <p>This year our school is working towards achieving a blue <a href="http://activeschoolflag.ie/" target="_blank">Active School Flag (ASF)</a>. 
-          This is a Department of Education and Skills initiative supported by Healthy Ireland.
-          The award recognises schools that strive to achieve a physically educated and physically active 
-          school community. 
-          The ASF process requires schools to self-evaluate across three areas: Physical Education /
-          Physical Activity / Partnerships. Thereafter schools are required to plan and implement 
-          improvements that will have a positive effect on their school community and will satisfy 
-          the ASF Success Criteria. 
-        </p>
-        <p>
-          Active School Flag teamed up with RTE's <a href="https://ot.rte.ie/" target="_blank">Operation Transformation </a> to promote physical activity in primary schools. Every school who completed the Operation Transformation 10@10 could use this as 
-          a tick towards gaining the blue Active School Flag. 
-        </p>
-        <p>
-          On Friday February 10th every class in our school had great fun taking part in the 10@10 which 
-          put us a step closer to receiving our blue flag. 
-    ​    </p>
-        <p>
-          Watch our wonderful students and teachers 10@10 video below 
-        </p>
-      
-         <iframe id="vid" src="https://www.youtube.com/embed/j34Om36qaUc" frameborder="0" allowfullscreen></iframe>
-      </div> 
+      <!-- CENTER PAGE -->
+      <div class="col-lg-7 col-md-8 centerpage">
+        
+        <h1> Photo Gallery </h1>
+        <h1> Sport 2017 </h1> 
 
-<!-- News & Events Sidebar -->
+
+        <div class="row">
+ 
+          <div id="pageGallery">
+
+            <img class="thumbnailPic img-responsive" src="pictures/GALLERY/2017/sport/sport(1).jpg" alt="gallery">
+            <img class="thumbnailPic img-responsive" src="pictures/GALLERY/2017/sport/sport(2).jpg" alt="gallery">
+            <img class="thumbnailPic img-responsive" src="pictures/GALLERY/2017/sport/sport(3).jpg" alt="gallery">
+            <img class="thumbnailPic img-responsive" src="pictures/GALLERY/2017/sport/sport(4).jpg" alt="gallery">
+            <img class="thumbnailPic img-responsive" src="pictures/GALLERY/2017/sport/sport(5).jpg" alt="gallery">
+            <img class="thumbnailPic img-responsive" src="pictures/GALLERY/2017/sport/sport(6).jpg" alt="gallery">
+            <img class="thumbnailPic img-responsive" src="pictures/GALLERY/2017/sport/sport(7).jpg" alt="gallery">
+            <img class="thumbnailPic img-responsive" src="pictures/GALLERY/2017/sport/sport(8).jpg" alt="gallery">
+            <img class="thumbnailPic img-responsive" src="pictures/GALLERY/2017/sport/sport(9).jpg" alt="gallery">
+             <img class="thumbnailPic img-responsive" src="pictures/GALLERY/2017/sport/sport(10).jpg" alt="gallery">
+            <img class="thumbnailPic img-responsive" src="pictures/GALLERY/2017/sport/sport(11).jpg" alt="gallery">
+      
+          </div>
+        </div>
+
+
+
+        <div id="slideshowModal" class="modal">
+       
+          <div class="modal-content">
+       
+            <div class="slideshow"> 
+              <span class="closeGallery cursor">&times;</span>
+      
+              <img src="" id="contentPic">
+
+              <span class="glyphicon glyphicon-chevron-left"></span>
+              <span class="glyphicon glyphicon-chevron-right"></span>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <!-- News & Events Sidebar -->
       <div class="col-lg-3 col-md-4 sidebar hidden-sm hidden-xs">
         <a href="NewsAndEvents.html">
           <h2> News & Events</h2>
-        
+      
+
           <article id="news1">
             <h3></h3>
             <div id="news1div"></div>
@@ -145,19 +150,14 @@
             <h4></h4>
           </article>
           <hr>
-          <article id="news3">
-            <h3></h3>
-            <div id="news3div"></div>
-            <h4></h4>
-          </article>
         </a>
       </div>
-    </div>
-
+    </div> 
     <footer>
       <p id="footertxt"><b>Address: </b> Scoil Mhólainge, Mullinavat, Via Waterford. <b>Telephone: </b>(051)427305 <b>E-mail: </b>listerlinns@eircom.net.</p>
     </footer>
-    <script src="../js/news&events.js"></script>
-  </body>
-</html>     
- 
+    <script src="js/news&events.js"></script>
+    <script type="text/javascript" src="js/gallery.js"></script> 
+  </body>    
+</html>
+  

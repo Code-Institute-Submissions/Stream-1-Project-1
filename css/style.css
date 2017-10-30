@@ -101,10 +101,10 @@
 	background-color: pink;
 }
 
-.calander{
+.calendar{
 	background-color: #9ECFEC;
 }
-.navbar-default .calander:active{
+.navbar-default .calendar:active{
 	box-shadow: 2px -1px 10px 5px #4281A4 inset;
 	background-color: #9ECFEC;
 }
@@ -462,38 +462,60 @@ a{
 	padding-right: 50px;
 }
 
+/****************************************Gallery********************************************/
+#GalleryThumbnail{
+	padding-right: 50px;
+	padding-left: 50px;
+}
+#GalleryThumbnail .thumbnail{
+	width:300px;
+	height: 200px;
+	text-align: center;
+	display: inline-table;
+	margin-left: 40px;
+	margin-right: 30px;
+	padding: 20px;
+	background-color: #B8BEDD;
+}
+
+#GalleryThumbnail img{
+	object-fit: cover;
+	max-width: 290px;
+	max-height: 150px;
+}
+
 /**********************************Parents Association*************************************/
 #stageImg{
 	float:left;
 	padding-right: 50px;
 }
 
-/***************************************Calander*****************************************/
-#calander, #newsrow3{
+/***************************************calendar*****************************************/
+#calendar, #newsrow3{
 	background:linear-gradient(to bottom, #0E6990,white);
 }
-#calander h2{
+#calendar h2{
 	text-align: center;
 	font-family: sans-serif;
 	font-weight: bold;
 	padding-bottom: 50px;
 	text-decoration-line: underline;
 }
-#calander table{
+#calendar table{
 	font-family: sans-serif;
 	font-size: 18px;
 	color: navy;
 }
-#calander th{
+#calendar th{
 	font-size: 20px;
 	font-weight: bold;
 	text-align: center;
 }
 
-#calander td{
+#calendar td{
 	padding: 20px;
 }
-#calander td:first-child{
+#calendar td:first-child{
 	font-weight: bold;	
 	border-right: inset;
 }
