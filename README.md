@@ -13,7 +13,7 @@
 
 ## FUNCTIONALITY
 
-#### The projects home page has an easy to use navigation bar, photos and minimal information. From the navigation bar which remains affixed to the top of the screen you can navigate to any of the 25 other pages in the project. This easy see & use navigation bar is on every page.
+#### The projects home page has an easy to use navigation bar, photos and minimal information. From the navigation bar which remains affixed to the top of the screen you can navigate to any of the 25 other pages in the project. This easy to see & use navigation bar is on every page.
 
 - About Us - This is a dropdown menu with links to pages that provide information to a person looking to find out about the school. On each of the pages under the About Us heading there is relevant information along with 2 sidebars one with links to all the other About Us pages and one with news and events information.
 
@@ -63,9 +63,9 @@
 - If a phone number was supplied that it only excepted numbers in this field.
 
 ## Some problems that arose and how I resolved them
-#### I had a video on the ActiveSchools.html page embedded. When i tried to push this video to GitHub it caused me alot of problems, It was taking 10 minutes trying to push, followed by an error to say the video was too large and the max GitHub would recieve was 100KB, it advised Git LFS, so i followed the instructions for this, it let me push the once but after that with every push i was trying to make, it was taking 10minutes followed by errors in relation to the video. I finally resolved this by uploading the video to YouTube and embedding a link to the youTube video instead.
+#### I had a video on the ActiveSchools.html page embedded. When I tried to push this video to GitHub it caused me a lot of problems, it was taking 10 minutes trying to push, followed by an error to say the video was too large and the max GitHub would receive was 100KB, it advised Git LFS, so I followed the instructions for this, it let me push the video to GitHub once but after that with every push I was trying to make, it was taking 10minutes followed by errors in relation to the video. I finally resolved this by uploading the video to YouTube and embedding a link to the YouTube video instead.
 
-#### I originally had all my photos on the Gallery.html page. However when i clicked on this page, it was taking a long time to load each picture, too long for anyone to want to wait to see them. I resolved this by creating different pages for different events and just showing a few pictures on each page. I also resized every picture and compressed every picture using TingPNG.com this reduced the size of the pictures by up to 74%, many pictures were over 5MB and after reducing the size and compressing i was able to reduce the size to a couple of hundred KB's. This in turn made the downloading much faster.
+#### I originally had all my photos on the Gallery.html page. However, when I clicked on this page, it was taking a long time to load each picture, too long for anyone to want to wait to see them. I resolved this by creating different pages for different events and just showing a few pictures on each page. I also resized every picture and compressed every picture using TingPNG.com this reduced the size of the pictures by up to 74%, many pictures were over 5MB and after reducing the size and compressing I was able to reduce the size to a couple of hundred KB's. This in turn made the downloading much faster.
 
 #### All my links were working perfectly during cross border testing but when I uploaded to GitHub pages, the links were not working. I found out that GitHub pages was case sensitive so I resolved this by going through my code and making sure every link was spelt with proper cases.
 
@@ -74,10 +74,10 @@
 - I kept the general layout for the carousel and inputted my own pictures. I also used the same next and previous button design. I decided not to have captions on my pictures so I eliminated captions. I changed the default timing interval to 7.5seconds. I changed height, width and margin bottom values and I changed the image to object-fit: cover.
 
 ## THE FUTURE
-#### I hope to develop on this project in the future when i have completed Stream 2 & Stream 3 it is my aim to:
+#### I hope to develop on this project in the future when I have completed Stream 2 & Stream 3 it is my aim to:
 - have the Contact Form on the ContactUs.html page working fully, sending an email to the school with all the information provided.
 - have an administration section on the site where the teachers or an assigned person can edit pages, add pictures add news and events etc. so that the site can be independent to the school and I would not have the sole responsibility of it.
-- be able to share news & events on the schools facebook group.
+- be able to share news & events on the schools Facebook group.
 - have a blackboard/noticeboard page for each teacher, so they can put up notes, homework etc, saving the school sending home notes and homework sheets each week. 
 
 ## HOW THE PROJECT WAS DEPLOYED
