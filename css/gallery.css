@@ -91,6 +91,7 @@
   margin: 100px 5px;
   text-align: center;
 }
+
 #GalleryLeftCol a{
   font-family: atma;
   color: #B8BEDD;
@@ -98,6 +99,7 @@
   text-align: center;
   font-size: 30px;
 }
+
 #GalleryLeftCol a:hover{
   color: pink;
 }

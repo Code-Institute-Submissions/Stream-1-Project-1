@@ -1,22 +1,27 @@
+// On most pages of the website on the right side of the page the news & events  are shown. This is the 
+//JQuery file that appends the news onto each of these pages
+
+//This is an array of news and events:
+//title is the news title
+//image is the link to the image for the news piece
+//link is the link to the main article on the news & events webpage.
+//text is a small snippet of text explaining the news or event.
+var news = [{title:"Cake Sale", image:'"pictures/news/cakesaleindex.jpg"', link:'"NewsAndEvents.html#news1"',
+text:"our annual cakesale will take place Jan 12th December at 12 am, please come along and support"},
+{title:"School Mass", image:'"pictures/news/handsprayingindex.jpg"',link:'"NewsAndEvents.html#news3"', 
+text:"Our School Mass will take place on 10th October at 10am, all parents are welcome"},
+{title:"Credit Union", image:'"pictures/CREDITUNION/creditunionindex.jpg"', link:'"NewsAndEvents.html#news2"',
+text:"The school credit union is back running every Wednesday morning at 9.20am"}];
+
+//Once the page is loaded the following function is called
 $(document).ready(function(){
-	// News Story 1
-	$("#news1 h3").append("Cake Sale");
-	$("#news1div").append('<img src="pictures/news/cakesaleindex.jpg"alt="News & Events">');
-	$("#news1index").append('<img src="pictures/news/cakesaleindex.jpg"alt="News & Events">')
-	$("#news1 h4").append("our annual cakesale will take place Jan 12th December at 12 am, please come along and support");
+	var newsDiv=$("<article> </article>"); //the news piece is put inside an article
 
-	// News Story 2
-	$("#news2 h3").append("School Mass");
-	$("#news2div").append('<img src="pictures/news/handsprayingindex.jpg"alt="News & Events">');
-	$("#news2index").append('<img src="pictures/news/handsprayingindex.jpg"alt="News & Events">')
-	$("#news2 h4").append("Our School Mass will take place on 10th October at 10am, all parents are welcome");
-	
-	//News Story 3
-	$("#news3 h3").append("Credit Union");
-	$("#news3div").append('<img src="pictures/CREDITUNION/creditunionindex.jpg"alt="News & Events">');
-	$("#news3index").append('<img src="pictures/CREDITUNION/creditunionindex.jpg"alt="News & Events">')
-	$("#news3 h4").append("The school credit union is back running every Wednesday morning at 9.20am");
-	
+	for(var i = 0; i<news.length; i++){ //do this function from the start to the end of the array
+		var item = news[i]; //item is assigned to the current news story selected in the array
+		$("#newsContainer").append(newsDiv); // add newsDiv to the newsContainer on the web page
+											//and append all the news information
+		newsDiv.append('<a href='+item.link+'><h3>'+item.title+'</h3><img class = "img-responsive" src='
+		+item.image+' alt="News & Events"><h4>'+ item.text +'</h4></a><hr>');
+	}
 });
-
-
