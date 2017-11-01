@@ -64,6 +64,11 @@
 - The correct format for email was used
 - If a phone number was supplied that it only excepted numbers in this field.
 
+#### I ran all my files through a validation test using
+- [W3C](https://validator.w3.org/) for HTML.
+- [W3C](https://jigsaw.w3.org/css-validator/) for CSS.
+- [JS Hint](http://jshint.com/) for JavaScript.
+
 ## Some problems that arose and how I resolved them
 #### I had a video on the ActiveSchools.html page embedded. When I tried to push this video to GitHub it caused me a lot of problems, it was taking 10 minutes trying to push, followed by an error to say the video was too large and the max GitHub would receive was 100KB, it advised Git LFS, so I followed the instructions for this, it let me push the video to GitHub once but after that with every push I was trying to make, it was taking 10minutes followed by errors in relation to the video. I finally resolved this by uploading the video to YouTube and embedding a link to the YouTube video instead.
 
