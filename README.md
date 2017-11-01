@@ -76,7 +76,7 @@
 
 #### All my links were working perfectly during cross border testing but when I uploaded to GitHub pages, the links were not working. I found out that GitHub pages was case sensitive so I resolved this by going through my code and making sure every link was spelt with proper cases.
 
-## Work based off other code
+## WORK BASED OFF OTHER CODE
 #### I found help for the bootstrap carousel on index.html from [w3schools](https://www.w3schools.com/bootstrap/bootstrap_carousel.asp)
 - I kept the general layout for the carousel and inputted my own pictures. I also used the same next and previous button design. I decided not to have captions on my pictures so I eliminated captions. I changed the default timing interval to 7.5seconds. I changed height, width and margin bottom values and I changed the image to object-fit: cover.
 
