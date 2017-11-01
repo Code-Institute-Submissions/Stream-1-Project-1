@@ -6,7 +6,7 @@
 //- image is the link to the image to be shown for the news piece
 //- text is a small snippet of text explaining the news or event.
 var news = [{title:"Cake Sale", image:'"pictures/news/cakesaleindex.jpg"',
-text:"our annual cakesale will take place Jan 12th December at 12 am, please come along and support"},
+text:"Cake sale will take place Jan 12th December at 12 am, please come along and support"},
 {title:"School Mass", image:'"pictures/news/handsprayingindex.jpg"',
 text:"Our School Mass will take place on 10th October at 10am, all parents are welcome"},
 {title:"Credit Union", image:'"pictures/CREDITUNION/creditunionindex.jpg"',
@@ -20,7 +20,6 @@ $(document).ready(function(){
 		var item = news[i]; //The current news story selected in the array is assigned to var item
 		$("#newsContainer").append(newsDiv); // add newsDiv to the newsContainer on the web page
 											//and append all the news information to the newsDiv.
-		newsDiv.append('<a href="NewsAndEvents.html" '+item.link+'><h3>'+item.title+'</h3><img class = "img-responsive" src='
-		+item.image+' alt="News & Events"><h4>'+ item.text +'</h4></a><hr>');
+		newsDiv.append('<a href="NewsAndEvents.html" '+item.link+'><h3>'+item.title+'</h3><img class = "img-responsive" src='+item.image+' alt="News & Events"><h4>'+ item.text +'</h4></a><hr>');
 	}
 });

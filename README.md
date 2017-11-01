@@ -34,6 +34,8 @@
 #### Languages & Libraries used - HTML, CSS, JavaScript & jQuery.
 #### YouTube - to upload the video on the ActiveSchools.html page.
 #### TinyPNG - to compress photos.
+#### JS Hint - to validate the JavaScript files
+#### W3C - to validate the HTML and CSS files
 
 ## HOW THE PROJECT WAS TESTED
 
@@ -76,7 +78,7 @@
 ## THE FUTURE
 #### I hope to develop on this project in the future when I have completed Stream 2 & Stream 3 it is my aim to:
 - have the Contact Form on the ContactUs.html page working fully, sending an email to the school with all the information provided.
-- have an administration section on the site where the teachers or an assigned person can edit pages, add pictures add news and events etc. so that the site can be independent to the school and I would not have the sole responsibility of it.
+- have an administration section on the site where the teachers or an assigned person can edit pages, add pictures, add news and events etc. so that the site can be independent to the school and I would not have the sole responsibility of it.
 - be able to share news & events on the schools Facebook group.
 - have a blackboard/noticeboard page for each teacher, so they can put up notes, homework etc, saving the school sending home notes and homework sheets each week. 
 

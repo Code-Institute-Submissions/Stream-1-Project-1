@@ -12,125 +12,106 @@
   </head>
   
   <body>
+    <!-- Header / Navigation -->
+    <div class="container-fluid"> 
+      <div id="row1" class="row">
+        <div class="col-md-4">
+          <img src="pictures/logopic.png" class="img-responsive logoimg" alt="Scoil Mhólainge Listerlin">
+        </div>
+        <div class="col-md-8 schoolname">
+          <a class="schoolname" href="#">Scoil Mhólainge ~ Listerlin</a>
+        </div>
+      </div> 
+    </div>
 
-  <!-- Header / Navigation -->
-  <div class="container-fluid"> 
-    <div id="row1" class="row">
-      <div class="col-md-4">
-        <img src="pictures/logopic.png" class="img-responsive logoimg" alt="Scoil Mhólainge Listerlin">
-      </div>
-      <div class="col-md-8 schoolname">
-        <a class="schoolname" href="#">Scoil Mhólainge ~ Listerlin</a>
-      </div>
-    </div> 
-  </div>
+    <div class="container-fluid">
+      <nav class="navbar navbar-default navbgcolor" data-spy="affix" data-offset-top="180">
+        <div class="navbar-header">                   
+          <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#myCollapsingList">
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+          </button>
+        </div>
+        <div class="row">
+          <ul id="myCollapsingList" class="col-lg-12 nav navbar-pills nav-justified collapse navbar-collapse">
+            <li><a class="home navbar-pills" href="index.html">Home</a></li>
+            <li class="dropdown">
+              <a class="about navbar-pills" href="#">About Us
+                <span class="caret"></span>
+              </a>
+              <div class="dropdown-content dropdown-menu drophome dropdown-menu-right">
+                <a href="OurSchool.html">Our School</a>
+                <a href="MissionStatement.html">Mission Statement</a>
+                <a href="OurStaff.html">Our Staff</a>
+                <a href="BOM.html">Board Of Management</a>
+                <a href="SchoolPolicies.html">School Policies</a>
+                <a href="WSEReport.html">WSE Report</a>
+                <a href="ExCurricular.html">Extra Curricular</a>
+                <a href="ActiveSchools.html">Active Schools</a>
+                <a href="SuperTroopers.html">Super Troopers</a>
+                <a href="SchoolCU.html">School Credit Union</a>
+                <a href="Gallery.html">Picture Gallery</a>
+              </div>
+            </li>
+            <li class="dropdown">
+              <a class="parents navbar-pills" href="#">Parents
+              <span class="caret"></span></a>
+              <div class="dropdown-content dropdown-menu dropparents dropdown-menu-right">
+                <a class="droptxt" href="ParentsAssociation.html">Parents Association</a>
+                <a class="droptxt" href="Guidelines.html">Guidelines for parents</a>
+                <a class="droptxt" href="JuniorInfants.html">Starting Junior Infants</a>
+                <a class="droptxt" href="Links.html">Useful Links</a>
+              </div>
+            </li>
+            <li><a class="news navbar-pills" href="NewsAndEvents.html">News & Events</a></li>
+            <li><a class="calendar navbar-pills" href="calendar.html">calendar</a></li>
+            <li><a class="contacts navbar-pills" href="ContactUs.html">Contact Us</a></li>
+          </ul>
+        </div>
+      </nav>
+    </div>
 
-  <div class="container-fluid">
-    <nav class="navbar navbar-default navbgcolor" data-spy="affix" data-offset-top="180">
-      <div class="navbar-header">                   
-        <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#myCollapsingList">
-          <span class="icon-bar"></span>
-          <span class="icon-bar"></span>
-          <span class="icon-bar"></span>
-        </button>
-      </div>
-      <div class="row">
-        <ul id="myCollapsingList" class="col-lg-12 nav navbar-pills nav-justified collapse navbar-collapse">
-          <li><a class="home navbar-pills" href="index.html">Home</a></li>
-          <li class="dropdown">
-            <a class="about navbar-pills" href="#">About Us
-              <span class="caret"></span>
-            </a>
-            <div class="dropdown-content dropdown-menu drophome dropdown-menu-right">
-              <a href="OurSchool.html">Our School</a>
-              <a href="MissionStatement.html">Mission Statement</a>
-              <a href="OurStaff.html">Our Staff</a>
-              <a href="BOM.html">Board Of Management</a>
-              <a href="SchoolPolicies.html">School Policies</a>
-              <a href="WSEReport.html">WSE Report</a>
-              <a href="ExCurricular.html">Extra Curricular</a>
-              <a href="ActiveSchools.html">Active Schools</a>
-              <a href="SuperTroopers.html">Super Troopers</a>
-              <a href="SchoolCU.html">School Credit Union</a>
-              <a href="Gallery.html">Picture Gallery</a>
-            </div>
-          </li>
-
-          <li class="dropdown">
-            <a class="parents navbar-pills" href="#">Parents
-            <span class="caret"></span></a>
-            <div class="dropdown-content dropdown-menu dropparents dropdown-menu-right">
-              <a class="droptxt" href="ParentsAssociation.html">Parents Association</a>
-              <a class="droptxt" href="Guidelines.html">Guidelines for parents</a>
-              <a class="droptxt" href="JuniorInfants.html">Starting Junior Infants</a>
-              <a class="droptxt" href="Links.html">Useful Links</a>
-            </div>
-          </li>
-
-          <li><a class="news navbar-pills" href="NewsAndEvents.html">News & Events</a></li>
-          <li><a class="calendar navbar-pills" href="calendar.html">calendar</a></li>
-          <li><a class="contacts navbar-pills" href="ContactUs.html">Contact Us</a></li>
+    <!-- Main Page -->
+    <!-- sidebar navigation -->
+    <div id="row3" class="row">
+      <div class="col-lg-3 hidden-md hidden-sm hidden-xs">
+        <h2 id="sideH2">About Us</h2>
+        <ul class="sidebar">
+          <li><a href="index.html">Home</a></li>
+          <li><a href="OurSchool.html">Our School</a></li>
+          <li><a href="MissionStatement.html">Mission Statement</a></li>
+          <li><a href="OurStaff.html">Our Staff</a></li>
+          <li><a href="BOM.html">Board Of Management</a></li>
+          <li><a href="SchoolPolicies.html">School Policies</a></li>
+          <li><a href="WSEReport.html">WSE Report</a></li>
+          <li><a href="ExCurricular.html">Extra Curricular Activities</a></li>
+          <li><a href="ActiveSchools.html">Active Schools</a></li>
+          <li><a href="SuperTroopers.html">Super Troopers</a></li>
+          <li><a href="SchoolCU.html">School Credit Union</a></li>
+          <li><a href="Gallery.html">Picture Gallery</a></li>
         </ul>
       </div>
-    </nav>
-  </div>
-
-  <!-- Main Page -->
-  <!-- sidebar navigation -->
-  <div id="row3" class="row">
-    <div class="col-lg-3 hidden-md hidden-sm hidden-xs">
-      <h2 id="sideH2">About Us</h2>
-      <ul class="sidebar">
-        <li><a href="index.html">Home</a></li>
-        <li><a href="OurSchool.html">Our School</a></li>
-        <li><a href="MissionStatement.html">Mission Statement</a></li>
-        <li><a href="OurStaff.html">Our Staff</a></li>
-        <li><a href="BOM.html">Board Of Management</a></li>
-        <li><a href="SchoolPolicies.html">School Policies</a></li>
-        <li><a href="WSEReport.html">WSE Report</a></li>
-        <li><a href="ExCurricular.html">Extra Curricular Activities</a></li>
-        <li><a href="ActiveSchools.html">Active Schools</a></li>
-        <li><a href="SuperTroopers.html">Super Troopers</a></li>
-        <li><a href="SchoolCU.html">School Credit Union</a></li>
-        <li><a href="Gallery.html">Picture Gallery</a></li>
-      </ul>
-    </div>
  
-    <div class="col-lg-6 col-md-8 centerpage">
-      <h1> Our School </h1>
-
-      <img src="pictures/OURSCHOOL/schoolgroup.jpg" alt="Our School group photo" id="ourschoolImg">
-      <p>
-        Scoil Mhólainge Listerlin is a Primary School under the patronage of the Bishop of Ossory. We are situated in the <a class="centerA" href="http://www.rosberconparish.com/" target="_blank"> Parish of Rosbercon </a>half way between Mullinavat and New Ross on the R704 National Primary Route.
-      </p>
-      <p>
-        The school takes its name from St Moling, the seventh century saint who had his hermitage at Mullinakill about five kilometers from the school.
-​      </p>
-      <p>
-        The school has 120 pupils (Boys and girls) from four to thirteen years of age. We draw our pupils from the predominantly rural western side of the Parish. We have 5 classroom Teachers and a Learning Resource Teacher.
-​      </p>
-      <p>
-        Our motto is "Go raibh sonas ar ár nDaltaí" (That our children may be happy)
-        We try to foster an enjoyable learning environment which places the young child at the centre of all school activities and decisions.
-​      </p>
-      <p>
-        The school grounds are spacious with two playing pitches, a hard playing surface and our hurling wall which proves popular with both boys and girls from all classes. Pupils also maintain a small garden in the school grounds.
-      </p>
-      <p>
-        The school has updated its general purpose room to incorporate a removable stage and seating for almost 150 adults. This fine space is used for PE by all pupils.
-      </p>
-    </div>    
- 
-    <!-- News & Events Sidebar -->
-    <div id="newsContainer" class="col-lg-3 col-md-4 sidebar hidden-sm hidden-xs">
-        <a href="NewsAndEvents.html">
-          <h2> News & Events</h2>
-        </a>
+      <div class="col-lg-6 col-md-8 centerpage">
+        <h1> Our School </h1>
+        <img src="pictures/OURSCHOOL/schoolgroup.jpg" alt="Our School group photo" id="ourschoolImg">
+        <p>Scoil Mhólainge Listerlin is a Primary School under the patronage of the Bishop of Ossory. We are situated in the <a class="centerA" href="http://www.rosberconparish.com/" target="_blank"> Parish of Rosbercon </a>half way between Mullinavat and New Ross on the R704 National Primary Route.</p>
+        <p>The school takes its name from St Moling, the seventh century saint who had his hermitage at Mullinakill about five kilometers from the school.</p>
+        <p>The school has 120 pupils (Boys and girls) from four to thirteen years of age. We draw our pupils from the predominantly rural western side of the Parish. We have 5 classroom Teachers and a Learning Resource Teacher.</p>
+        <p>Our motto is "Go raibh sonas ar ár nDaltaí" (That our children may be happy). We try to foster an enjoyable learning environment which places the young child at the centre of all school activities and decisions.</p>
+        <p>The school grounds are spacious with two playing pitches, a hard playing surface and our hurling wall which proves popular with both boys and girls from all classes. Pupils also maintain a small garden in the school grounds. </p>
+        <p>The school has updated its general purpose room to incorporate a removable stage and seating for almost 150 adults. This fine space is used for PE by all pupils.</p>
+      </div>    
+    
+      <!-- News & Events Sidebar -->
+      <div id="newsContainer" class="col-lg-3 col-md-4 sidebar hidden-sm hidden-xs">
+        <a href="NewsAndEvents.html"><h2> News & Events</h2></a>
       </div>
-  </div>
-  <footer>
-    <p id="footertxt"><b>Address: </b> Scoil Mhólainge, Mullinavat, Via Waterford. <b>Telephone: </b>(051)427305 <b>E-mail: </b>listerlinns@eircom.net.</p>
-  </footer>
-  <script src="js/news&events.js"></script>
-</body>
+    </div>
+    <footer>
+      <p id="footertxt"><b>Address: </b> Scoil Mhólainge, Mullinavat, Via Waterford. <b>Telephone: </b>(051)427305 <b>E-mail: </b>listerlinns@eircom.net.</p>
+    </footer>
+    <script src="js/news&events.js"></script>
+  </body>
 </html>
