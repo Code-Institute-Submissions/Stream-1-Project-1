@@ -2,7 +2,7 @@
 
 ## ABOUT THIS PROJECT
 
-#### I am currently a student at the [Code Institute](http://lms.codeinstitute.net/) doing the Full Stack Diploma in Software Development. This is the first of three projects which I must complete in order to be awarded the globally recognised Diploma from Edinburgh Napier University. This project will cover the Front End Development section of the course.
+#### I am currently a student at the [Code Institute](http://lms.codeinstitute.net/) doing a Full Stack Diploma in Software Development. This is the first of three projects which I must complete in order to be awarded the globally recognised Diploma from Edinburgh Napier University. This project will cover the Front End Development section of the course.
 #### The project is based on the primary school in my local area. On completion this will be the schools new website.
 
 ## THE NEEDS THIS PROJECT FULFILLS
