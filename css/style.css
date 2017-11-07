@@ -533,12 +533,15 @@ a{
 	border-right: inset;
 }
 
-/*********************************************** Guidelines **********************************/
+/********************************* Guidelines & Junior Infants **********************************/
 
 #accordion h4{
 	font-family: atma;
 	font-size: 25px;
 	color: navy;
+}
+.panel-heading:hover{
+	cursor: pointer;
 }
 .glyphicon-menu-down{
 	float:right;
@@ -637,6 +640,17 @@ form{
 #map{
 	width: 600px;
 	height:450px; 
+}
+
+input[type=submit]{
+	background-color: #0E6990;
+	color: white;
+	font-family: atma;
+	font-size: 20px;
+	letter-spacing: 2px;
+	border-color: white;
+	border-radius: 30px;
+	padding: 5px 15px;
 }
 /************************************************* FOOTER ******************************/
 

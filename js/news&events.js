@@ -14,7 +14,7 @@ text:"The school credit union is back running every Wednesday morning at 9.20am"
 
 //Once the page is loaded the following function is called
 $(document).ready(function(){
-	var newsDiv=$("<article> </article>"); //the news piece will be put inside an article
+    var newsDiv=$("<article> </article>"); //the news piece will be put inside an article
 
 	for(var i = 0; i<news.length; i++){ //do this function from the start to the end of the news array
 		var item = news[i]; //The current news story selected in the array is assigned to var item
